@@ -21,7 +21,8 @@ public class CustomNetworkManager : MonoBehaviour
     // Host button callback
     public void StartServer()
     {
-     //   NetworkManager.singleton.networkPort = int.Parse(HostPort_input.text); // Get port and put it in the network manager
+        //   NetworkManager.singleton.networkPort = int.Parse(HostPort_input.text); // Get port and put it in the network manager
+        this.GetComponent<TelepathyTransport>().port = ushort.Parse(HostPort_input.text);
         NetworkManager.singleton.StartHost(); // Newtork command allowing to create server + switch to network scene
     }
 
@@ -30,6 +31,7 @@ public class CustomNetworkManager : MonoBehaviour
     {
         NetworkManager.singleton.networkAddress = JoinIP_input.text; // Get ip address and put it in the network manager
        // NetworkManager.singleton.networkPort = int.Parse(JoinPort_input.text); // Get port and put it in the network manager
+       this.GetComponent<TelepathyTransport>().port = ushort.Parse(JoinPort_input.text);
         NetworkManager.singleton.StartClient(); // Network command allowing to given server
     }
 }
