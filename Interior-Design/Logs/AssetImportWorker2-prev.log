@@ -1,0 +1,233 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16271 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/docs/tuff_stuff/Semester Project/Interior-Design
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+64575
+Successfully changed project path to: D:/docs/tuff_stuff/Semester Project/Interior-Design
+D:/docs/tuff_stuff/Semester Project/Interior-Design
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 328.89 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.56 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/docs/tuff_stuff/Semester Project/Interior-Design/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6663
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008558 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 226.65 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.30 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.522 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.045924 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 229.83 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.60.0
+HDRP Internally changed the storage of Cube Cookie to use Octahedral Projection inside the 2D Cookie Atlas. It is recommended that you increase the size of the 2D Cookie Atlas if your cookies no longer fit.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__110_12 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:126)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/Core/Migration/MigrationDescription.cs:101)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable () (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:146)
+UnityEngine.Rendering.GraphicsSettings:get_currentRenderPipeline ()
+UnityEditor.Rendering.HighDefinition.HDBakedReflectionSystem:Initialize () (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Editor/Lighting/Reflection/HDBakedReflectionSystem.cs:42)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs Line: 126)
+
+Find all reader and writers took 274 milliseconds
+Script Module: UnityEngine.UI.dll
+Weave behaviours and messages took112 milliseconds
+Find all reader and writers took 217 milliseconds
+Script Module: Oculus.Platform.dll
+Weave behaviours and messages took76 milliseconds
+Find all reader and writers took 214 milliseconds
+Script Module: Unity.RenderPipelines.Core.Runtime.dll
+Weave behaviours and messages took65 milliseconds
+Find all reader and writers took 245 milliseconds
+Script Module: Assembly-CSharp.dll
+[AlignButton] NetworkBehaviourProcessor
+[CubeAuthority] NetworkBehaviourProcessor
+[DeleteButton] NetworkBehaviourProcessor
+[LightController] NetworkBehaviourProcessor
+[LocalPlayerController] NetworkBehaviourProcessor
+[NewGame] NetworkBehaviourProcessor
+[ObjectSelection] NetworkBehaviourProcessor
+[ObjectSpawning] NetworkBehaviourProcessor
+[PlayerMover] NetworkBehaviourProcessor
+[SentenceButton] NetworkBehaviourProcessor
+[ValidateButton] NetworkBehaviourProcessor
+[WallMover] NetworkBehaviourProcessor
+[WinOrLose] NetworkBehaviourProcessor
+[SimpleSampleCharacterControl] NetworkBehaviourProcessor
+Weave behaviours and messages took184 milliseconds
+Find all reader and writers took 217 milliseconds
+Script Module: UnityEngine.TestRunner.dll
+Weave behaviours and messages took36 milliseconds
+Find all reader and writers took 215 milliseconds
+Script Module: SimpleWebTransport.dll
+Weave behaviours and messages took8 milliseconds
+Find all reader and writers took 242 milliseconds
+Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
+Weave behaviours and messages took272 milliseconds
+Find all reader and writers took 219 milliseconds
+Script Module: Mirror.Examples.dll
+[Projectile] NetworkBehaviourProcessor
+[Tank] NetworkBehaviourProcessor
+[NetworkRoomPlayer] NetworkBehaviourProcessor
+[NetworkRoomPlayerExt] NetworkBehaviourProcessor
+[PlayerController] NetworkBehaviourProcessor
+[PlayerScore] NetworkBehaviourProcessor
+[RandomColor] NetworkBehaviourProcessor
+[Reward] NetworkBehaviourProcessor
+[AddForce] NetworkBehaviourProcessor
+[Ball] NetworkBehaviourProcessor
+[Player] NetworkBehaviourProcessor
+[MatchController] NetworkBehaviourProcessor
+[PhysicsCollision] NetworkBehaviourProcessor
+[PlayerController] NetworkBehaviourProcessor
+[PlayerScore] NetworkBehaviourProcessor
+[RandomColor] NetworkBehaviourProcessor
+[Reward] NetworkBehaviourProcessor
+[Player] NetworkBehaviourProcessor
+[MonsterMovement] NetworkBehaviourProcessor
+[PlayerMovement] NetworkBehaviourProcessor
+[Player] NetworkBehaviourProcessor
+[PlayerController] NetworkBehaviourProcessor
+[RandomColor] NetworkBehaviourProcessor
+[ShootingTankBehaviour] NetworkBehaviourProcessor
+Weave behaviours and messages took45 milliseconds
+  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0039887
+Find all reader and writers took 217 milliseconds
+Script Module: UnityEngine.XR.LegacyInputHelpers.dll
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 192 milliseconds
+Script Module: Unity.XR.Oculus.dll
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 241 milliseconds
+Script Module: Mirror.Components.dll
+[NetworkAnimator] NetworkBehaviourProcessor
+[NetworkRoomPlayer] NetworkBehaviourProcessor
+[NetworkLobbyPlayer] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkVisibility] Found NetworkBehaviour Mirror.NetworkVisibility
+[NetworkVisibility] Process Start
+[NetworkVisibility]   GenerateSerialization
+[NetworkVisibility]   GenerateDeSerialization
+[NetworkVisibility] Process Done
+[NetworkMatchChecker] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkOwnerChecker] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkProximityChecker] NetworkBehaviourProcessor
+[NetworkRoomPlayer] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkSceneChecker] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransform] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformChild] NetworkBehaviourProcessor
+[NetworkLerpRigidbody] NetworkBehaviourProcessor
+[NetworkRigidbody] NetworkBehaviourProcessor
+[NetworkRigidbody2D] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransform] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformChild] NetworkBehaviourProcessor
+Weave behaviours and messages took46 milliseconds
+  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0019947
+Find all reader and writers took 232 milliseconds
+Script Module: Unity.TextMeshPro.dll
+Weave behaviours and messages took114 milliseconds
+Find all reader and writers took 262 milliseconds
+Script Module: Unity.VisualEffectGraph.Runtime.dll
+Weave behaviours and messages took23 milliseconds
+Find all reader and writers took 204 milliseconds
+Script Module: Unity.Timeline.dll
+Weave behaviours and messages took30 milliseconds
+Find all reader and writers took 240 milliseconds
+Script Module: Oculus.VR.dll
+Weave behaviours and messages took87 milliseconds
+Find all reader and writers took 214 milliseconds
+Script Module: Mirror.Tests.Runtime.dll
+Weave behaviours and messages took8 milliseconds
+Find all reader and writers took 197 milliseconds
+Script Module: Telepathy.dll
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 200 milliseconds
+Script Module: com.unity.multiplayer-hlapi.Runtime.dll
+Weave behaviours and messages took70 milliseconds
+Find all reader and writers took 217 milliseconds
+Script Module: Mirror.Cloud.dll
+Weave behaviours and messages took6 milliseconds
+Find all reader and writers took 209 milliseconds
+Script Module: Unity.XR.Management.dll
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 152 milliseconds
+Script Module: kcp2k.dll
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 139 milliseconds
+Script Module: Mirror.Examples.Cloud.GUI.dll
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 143 milliseconds
+Script Module: Mirror.Examples.Cloud.Pong.dll
+[Ball] NetworkBehaviourProcessor
+[BallManager] NetworkBehaviourProcessor
+[Player] NetworkBehaviourProcessor
+Weave behaviours and messages took3 milliseconds
+  ProcessSitesModule Mirror.Examples.Cloud.Pong.dll elapsed time:00:00:00
+Find all reader and writers took 204 milliseconds
+Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 220 milliseconds
+Script Module: UnityEngine.SpatialTracking.dll
+Weave behaviours and messages took1 milliseconds
+Find all reader and writers took 236 milliseconds
+Script Module: Mirror.Authenticators.dll
+Weave behaviours and messages took3 milliseconds
+  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0010341

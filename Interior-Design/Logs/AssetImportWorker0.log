@@ -1,0 +1,639 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 16271 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/docs/tuff_stuff/Semester Project/Interior-Design
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49992
+Successfully changed project path to: D:/docs/tuff_stuff/Semester Project/Interior-Design
+D:/docs/tuff_stuff/Semester Project/Interior-Design
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 198.67 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 2.32 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/docs/tuff_stuff/Semester Project/Interior-Design/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6663
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006225 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 158.00 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.922 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.032023 seconds.
+Begin MonoManager ReloadAssembly
+Could not load image D:\docs\tuff_stuff\Semester Project\Interior-Design\Library\ScriptAssemblies\Mirror.Examples.Cloud.Pong.dll due to Invalid VirtualSize points beyond EOF
+Run the peverify utility against this for more information.
+
+Failed loading assembly Library/ScriptAssemblies/Mirror.Examples.Cloud.Pong.dll reason: File does not contain a valid CIL image
+Loading assembly failed: "Library/ScriptAssemblies/Mirror.Examples.Cloud.Pong.dll" reason: File does not contain a valid CIL image
+
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 125.09 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.60.0
+HDRP Internally changed the storage of Cube Cookie to use Octahedral Projection inside the 2D Cookie Atlas. It is recommended that you increase the size of the 2D Cookie Atlas if your cookies no longer fit.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/<>c:<.cctor>b__110_12 (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:126)
+UnityEngine.Rendering.HighDefinition.MigrationStep`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/Core/Migration/MigrationStep.cs:52)
+UnityEngine.Rendering.HighDefinition.MigrationDescription`2<UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset/Version, UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset>:Migrate (UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset) (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/Core/Migration/MigrationDescription.cs:101)
+UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable () (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs:146)
+UnityEngine.Rendering.GraphicsSettings:get_currentRenderPipeline ()
+UnityEditor.Rendering.HighDefinition.HDBakedReflectionSystem:Initialize () (at Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Editor/Lighting/Reflection/HDBakedReflectionSystem.cs:42)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.high-definition@10.4.0/Runtime/RenderPipeline/HDRenderPipelineAsset.Migration.cs Line: 126)
+
+Find all reader and writers took 147 milliseconds
+Script Module: UnityEngine.UI.dll
+Weave behaviours and messages took67 milliseconds
+Find all reader and writers took 131 milliseconds
+Script Module: Oculus.Platform.dll
+Weave behaviours and messages took39 milliseconds
+Find all reader and writers took 115 milliseconds
+Script Module: Unity.RenderPipelines.Core.Runtime.dll
+Weave behaviours and messages took36 milliseconds
+Find all reader and writers took 128 milliseconds
+Script Module: Assembly-CSharp.dll
+[AlignButton] NetworkBehaviourProcessor
+[CubeAuthority] NetworkBehaviourProcessor
+[DeleteButton] NetworkBehaviourProcessor
+[LightController] NetworkBehaviourProcessor
+[LocalPlayerController] NetworkBehaviourProcessor
+[NewGame] NetworkBehaviourProcessor
+[ObjectSelection] NetworkBehaviourProcessor
+[ObjectSpawning] NetworkBehaviourProcessor
+[PlayerMover] NetworkBehaviourProcessor
+[SentenceButton] NetworkBehaviourProcessor
+[ValidateButton] NetworkBehaviourProcessor
+[WallMover] NetworkBehaviourProcessor
+[WinOrLose] NetworkBehaviourProcessor
+[SimpleSampleCharacterControl] NetworkBehaviourProcessor
+Weave behaviours and messages took85 milliseconds
+Find all reader and writers took 125 milliseconds
+Script Module: UnityEngine.TestRunner.dll
+Weave behaviours and messages took16 milliseconds
+Find all reader and writers took 114 milliseconds
+Script Module: SimpleWebTransport.dll
+Weave behaviours and messages took5 milliseconds
+Find all reader and writers took 123 milliseconds
+Script Module: Unity.RenderPipelines.HighDefinition.Runtime.dll
+Weave behaviours and messages took154 milliseconds
+Find all reader and writers took 138 milliseconds
+Script Module: Mirror.Examples.dll
+[Projectile] NetworkBehaviourProcessor
+[Tank] NetworkBehaviourProcessor
+[NetworkRoomPlayer] NetworkBehaviourProcessor
+[NetworkRoomPlayerExt] NetworkBehaviourProcessor
+[PlayerController] NetworkBehaviourProcessor
+[PlayerScore] NetworkBehaviourProcessor
+[RandomColor] NetworkBehaviourProcessor
+[Reward] NetworkBehaviourProcessor
+[AddForce] NetworkBehaviourProcessor
+[Ball] NetworkBehaviourProcessor
+[Player] NetworkBehaviourProcessor
+[MatchController] NetworkBehaviourProcessor
+[PhysicsCollision] NetworkBehaviourProcessor
+[PlayerController] NetworkBehaviourProcessor
+[PlayerScore] NetworkBehaviourProcessor
+[RandomColor] NetworkBehaviourProcessor
+[Reward] NetworkBehaviourProcessor
+[Player] NetworkBehaviourProcessor
+[MonsterMovement] NetworkBehaviourProcessor
+[PlayerMovement] NetworkBehaviourProcessor
+[Player] NetworkBehaviourProcessor
+[PlayerController] NetworkBehaviourProcessor
+[RandomColor] NetworkBehaviourProcessor
+[ShootingTankBehaviour] NetworkBehaviourProcessor
+Weave behaviours and messages took35 milliseconds
+  ProcessSitesModule Mirror.Examples.dll elapsed time:00:00:00.0029841
+Find all reader and writers took 110 milliseconds
+Script Module: UnityEngine.XR.LegacyInputHelpers.dll
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 127 milliseconds
+Script Module: Unity.XR.Oculus.dll
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 128 milliseconds
+Script Module: Mirror.Components.dll
+[NetworkAnimator] NetworkBehaviourProcessor
+[NetworkRoomPlayer] NetworkBehaviourProcessor
+[NetworkLobbyPlayer] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkVisibility] Found NetworkBehaviour Mirror.NetworkVisibility
+[NetworkVisibility] Process Start
+[NetworkVisibility]   GenerateSerialization
+[NetworkVisibility]   GenerateDeSerialization
+[NetworkVisibility] Process Done
+[NetworkMatchChecker] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkOwnerChecker] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkProximityChecker] NetworkBehaviourProcessor
+[NetworkRoomPlayer] NetworkBehaviourProcessor
+[NetworkVisibility] NetworkBehaviourProcessor
+[NetworkSceneChecker] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransform] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformChild] NetworkBehaviourProcessor
+[NetworkLerpRigidbody] NetworkBehaviourProcessor
+[NetworkRigidbody] NetworkBehaviourProcessor
+[NetworkRigidbody2D] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransform] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformBase] NetworkBehaviourProcessor
+[NetworkTransformChild] NetworkBehaviourProcessor
+Weave behaviours and messages took33 milliseconds
+  ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0019593
+Find all reader and writers took 210 milliseconds
+Script Module: Unity.TextMeshPro.dll
+Weave behaviours and messages took67 milliseconds
+Find all reader and writers took 164 milliseconds
+Script Module: Unity.VisualEffectGraph.Runtime.dll
+Weave behaviours and messages took23 milliseconds
+Find all reader and writers took 197 milliseconds
+Script Module: Unity.Timeline.dll
+Weave behaviours and messages took35 milliseconds
+Find all reader and writers took 146 milliseconds
+Script Module: Oculus.VR.dll
+Weave behaviours and messages took97 milliseconds
+Find all reader and writers took 164 milliseconds
+Script Module: Mirror.Tests.Runtime.dll
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 169 milliseconds
+Script Module: Telepathy.dll
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 185 milliseconds
+Script Module: com.unity.multiplayer-hlapi.Runtime.dll
+Weave behaviours and messages took60 milliseconds
+Find all reader and writers took 191 milliseconds
+Script Module: Mirror.Cloud.dll
+Weave behaviours and messages took4 milliseconds
+Find all reader and writers took 173 milliseconds
+Script Module: Unity.XR.Management.dll
+Weave behaviours and messages took2 milliseconds
+Find all reader and writers took 136 milliseconds
+Script Module: kcp2k.dll
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 135 milliseconds
+Script Module: Mirror.Examples.Cloud.GUI.dll
+Weave behaviours and messages took5 milliseconds
+Exception :System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values.
+  at Mono.CecilX.PE.Image.ResolveVirtualAddress (System.UInt32 rva) [0x0000b] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.PE.ImageReader.MoveTo (Mono.CecilX.PE.DataDirectory directory) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.PE.ImageReader.ReadMetadata () [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.PE.ImageReader.ReadImage () [0x000a2] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.PE.ImageReader.ReadImage (Mono.Disposable`1[T] stream, System.String file_name) [0x00007] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.ModuleDefinition.ReadModule (Mono.Disposable`1[T] stream, System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00006] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.ModuleDefinition.ReadModule (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x0006c] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mono.CecilX.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.CecilX.ReaderParameters parameters) [0x00000] in <9a2bc2dadc3549b3bfc74bb584d58989>:0 
+  at Mirror.Weaver.Weaver.Weave (System.String assName, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in D:\docs\tuff_stuff\Semester Project\Interior-Design\Assets\Mirror\Editor\Weaver\Weaver.cs:165 
+  at Mirror.Weaver.Weaver.WeaveAssembly (System.String assembly, System.Collections.Generic.IEnumerable`1[T] dependencies) [0x00006] in D:\docs\tuff_stuff\Semester Project\Interior-Design\Assets\Mirror\Editor\Weaver\Weaver.cs:222 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:HandleError (string) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:35)
+Mirror.Weaver.Weaver:WeaveAssembly (string,System.Collections.Generic.IEnumerable`1<string>) (at Assets/Mirror/Editor/Weaver/Weaver.cs:226)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:142)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 35)
+
+Weaving failed for: Library/ScriptAssemblies/Mirror.Examples.Cloud.Pong.dll
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:146)
+Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
+Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
+
+(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 146)
+
+Find all reader and writers took 112 milliseconds
+Script Module: Unity.RenderPipelines.Core.ShaderLibrary.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 154 milliseconds
+Script Module: UnityEngine.SpatialTracking.dll
+Weave behaviours and messages took1 milliseconds
+Find all reader and writers took 156 milliseconds
+Script Module: Mirror.Authenticators.dll
+Weave behaviours and messages took7 milliseconds
+  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0009968
+Find all reader and writers took 131 milliseconds
+Script Module: Mirror.Tests.Common.dll
+Weave behaviours and messages took1 milliseconds
+Find all reader and writers took 121 milliseconds
+Script Module: Unity.Subsystem.Registration.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 132 milliseconds
+Script Module: Mirror.Tests.Performance.Runtime.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 171 milliseconds
+Script Module: Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 124 milliseconds
+Script Module: Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 203 milliseconds
+Script Module: UnityEditor.TestRunner.dll
+Weave behaviours and messages took29 milliseconds
+Find all reader and writers took 142 milliseconds
+Script Module: Mirror.Tests.dll
+[EmptyBehaviour] NetworkBehaviourProcessor
+[SyncVarGameObjectEqualExposedBehaviour] NetworkBehaviourProcessor
+[SyncVarNetworkIdentityEqualExposedBehaviour] NetworkBehaviourProcessor
+[NetworkBehaviourSendCommandInternalComponent] NetworkBehaviourProcessor
+[NetworkBehaviourSendRPCInternalComponent] NetworkBehaviourProcessor
+[NetworkBehaviourSendTargetRPCInternalComponent] NetworkBehaviourProcessor
+[NetworkBehaviourDelegateComponent] NetworkBehaviourProcessor
+[NetworkBehaviourSetSyncVarGameObjectComponent] NetworkBehaviourProcessor
+[NetworkBehaviourGetSyncVarGameObjectComponent] NetworkBehaviourProcessor
+[NetworkBehaviourSetSyncVarNetworkIdentityComponent] NetworkBehaviourProcessor
+[NetworkBehaviourGetSyncVarNetworkIdentityComponent] NetworkBehaviourProcessor
+[NetworkBehaviourInitSyncObjectExposed] NetworkBehaviourProcessor
+[OnStopClientComponent] NetworkBehaviourProcessor
+[OnStartClientComponent] NetworkBehaviourProcessor
+[OnStartLocalPlayerComponent] NetworkBehaviourProcessor
+[NetworkBehaviourHookGuardTester] NetworkBehaviourProcessor
+[NetworkBehaviourInitSyncObjectTester] NetworkBehaviourProcessor
+[CommandTestNetworkBehaviour] NetworkBehaviourProcessor
+[RpcTestNetworkBehaviour] NetworkBehaviourProcessor
+[OnStartClientTestNetworkBehaviour] NetworkBehaviourProcessor
+[OnStopClientTestNetworkBehaviour] NetworkBehaviourProcessor
+[TestObjectBehaviour] NetworkBehaviourProcessor
+[TestPlayerBehaviour] NetworkBehaviourProcessor
+[HookBehaviour] NetworkBehaviourProcessor
+[GameObjectHookBehaviour] NetworkBehaviourProcessor
+[NetworkIdentityHookBehaviour] NetworkBehaviourProcessor
+[NetworkBehaviourHookBehaviour] NetworkBehaviourProcessor
+[StaticHookBehaviour] NetworkBehaviourProcessor
+[VirtualHookBase] NetworkBehaviourProcessor
+[VirtualHookBase] NetworkBehaviourProcessor
+[VirtualOverrideHook] NetworkBehaviourProcessor
+[AbstractHookBase] NetworkBehaviourProcessor
+[AbstractHookBase] NetworkBehaviourProcessor
+[AbstractHook] NetworkBehaviourProcessor
+[MockPlayer] NetworkBehaviourProcessor
+[SyncVarGameObject] NetworkBehaviourProcessor
+[SyncVarNetworkIdentity] NetworkBehaviourProcessor
+[SyncVarTransform] NetworkBehaviourProcessor
+[SyncVarNetworkBehaviour] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[BehaviourWithSyncVar] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[OverrideBehaviourFromSyncVar] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[OverrideBehaviourWithSyncVarFromSyncVar] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[MiddleClass] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[MiddleClass] NetworkBehaviourProcessor
+[SubClass] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[MiddleClassWithSyncVar] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[MiddleClassWithSyncVar] NetworkBehaviourProcessor
+[SubClassFromSyncVar] NetworkBehaviourProcessor
+[BehaviourWithSyncVarWithOnSerialize] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[OverrideBehaviourFromSyncVarWithOnSerialize] NetworkBehaviourProcessor
+[AbstractBehaviour] NetworkBehaviourProcessor
+[OverrideBehaviourWithSyncVarFromSyncVarWithOnSerialize] NetworkBehaviourProcessor
+[AttributeBehaviour_NetworkBehaviour] NetworkBehaviourProcessor
+[DataSenderBehaviour] NetworkBehaviourProcessor
+[PayloadTestBehaviour] NetworkBehaviourProcessor
+[BehaviourWithEvents] NetworkBehaviourProcessor
+[VirtualClientRpc] NetworkBehaviourProcessor
+[VirtualClientRpc] NetworkBehaviourProcessor
+[VirtualNoOverrideClientRpc] NetworkBehaviourProcessor
+[VirtualClientRpc] NetworkBehaviourProcessor
+[VirtualOverrideClientRpc] NetworkBehaviourProcessor
+[VirtualClientRpc] NetworkBehaviourProcessor
+[VirtualOverrideClientRpcWithBase] NetworkBehaviourProcessor
+[ClientRpcBehaviour] NetworkBehaviourProcessor
+[ExcludeOwnerBehaviour] NetworkBehaviourProcessor
+[VirtualCommand] NetworkBehaviourProcessor
+[VirtualCommand] NetworkBehaviourProcessor
+[VirtualNoOverrideCommand] NetworkBehaviourProcessor
+[VirtualCommand] NetworkBehaviourProcessor
+[VirtualOverrideCommand] NetworkBehaviourProcessor
+[VirtualCommand] NetworkBehaviourProcessor
+[VirtualOverrideCommandWithBase] NetworkBehaviourProcessor
+[VirtualCommand] NetworkBehaviourProcessor
+[VirtualOverrideCommandWithBase] NetworkBehaviourProcessor
+[VirtualOverrideCommandWithBase2] NetworkBehaviourProcessor
+[AuthorityBehaviour] NetworkBehaviourProcessor
+[IgnoreAuthorityBehaviour] NetworkBehaviourProcessor
+[SenderConnectionBehaviour] NetworkBehaviourProcessor
+[SenderConnectionIgnoreAuthorityBehaviour] NetworkBehaviourProcessor
+[ThrowBehaviour] NetworkBehaviourProcessor
+[RpcNetworkIdentityBehaviour] NetworkBehaviourProcessor
+[VirtualTargetRpc] NetworkBehaviourProcessor
+[VirtualTargetRpc] NetworkBehaviourProcessor
+[VirtualNoOverrideTargetRpc] NetworkBehaviourProcessor
+[VirtualTargetRpc] NetworkBehaviourProcessor
+[VirtualOverrideTargetRpc] NetworkBehaviourProcessor
+[VirtualTargetRpc] NetworkBehaviourProcessor
+[VirtualOverrideTargetRpcWithBase] NetworkBehaviourProcessor
+[TargetRpcBehaviour] NetworkBehaviourProcessor
+Weave behaviours and messages took82 milliseconds
+  ProcessSitesModule Mirror.Tests.dll elapsed time:00:00:00.0079778
+Find all reader and writers took 205 milliseconds
+Script Module: ParrelSync.dll
+Weave behaviours and messages took3 milliseconds
+Find all reader and writers took 163 milliseconds
+Script Module: WeaverTestExtraAssembly.dll
+Weave behaviours and messages took1 milliseconds
+  ProcessSitesModule WeaverTestExtraAssembly.dll elapsed time:00:00:00
+Find all reader and writers took 126 milliseconds
+Script Module: Mirror.CompilerSymbols.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 149 milliseconds
+Script Module: UnityEditor.UI.dll
+Weave behaviours and messages took10 milliseconds
+Find all reader and writers took 150 milliseconds
+Script Module: UnityEditor.SpatialTracking.dll
+Weave behaviours and messages took0 milliseconds
+Find all reader and writers took 143 milliseconds
+Script Module: UnityEditor.XR.LegacyInputHelpers.dll
+Weave behaviours and messages took1 milliseconds
+Find all reader and writers took 130 milliseconds
+Script Module: Unity.ShaderGraph.Utilities.dll
+Weave behaviours and messages took0 milliseconds
+Mono: successfully reloaded assembly
+- Completed reload, in 19.241 seconds
+Platform modules already initialized, skipping
+Assertion failed on expression: 'reloadOk'
+
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.32 ms.
+Unloading 4627 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 241.3 MB.
+System memory in use after: 241.5 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5081.
+Total: 4.769900 ms (FindLiveObjects: 0.454900 ms CreateObjectMapping: 0.289200 ms MarkObjects: 3.957100 ms  DeleteObjects: 0.067200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/NetworkScene.unity
+  artifactKey: Guid(54c1e12818341914dab05648a5b7a4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NetworkScene.unity using Guid(54c1e12818341914dab05648a5b7a4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b525c886e3bacb22ec79105eec8632') in 0.028206 seconds
+  Import took 0.048107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 183.838129 seconds.
+  path: Assets/Resources/FloorTextures
+  artifactKey: Guid(5ecb34749a1ad9d439c5a627fc61e80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FloorTextures using Guid(5ecb34749a1ad9d439c5a627fc61e80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570608ded38328c6677124f44cd90b07') in 0.025563 seconds
+  Import took 0.037516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002572 seconds.
+  path: Assets/Resources/FloorTextures
+  artifactKey: Guid(5ecb34749a1ad9d439c5a627fc61e80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FloorTextures using Guid(5ecb34749a1ad9d439c5a627fc61e80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570608ded38328c6677124f44cd90b07') in 0.003662 seconds
+  Import took 0.032980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.575395 seconds.
+  path: Assets/Resources/FloorTextures/Woodenfloor01
+  artifactKey: Guid(2f3670fd6ff7cbb43ab6145b7f118642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FloorTextures/Woodenfloor01 using Guid(2f3670fd6ff7cbb43ab6145b7f118642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655f0bb5520c60bf79e5ec4f8bb5c25d') in 0.025693 seconds
+  Import took 0.035086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006714 seconds.
+  path: Assets/Resources/FloorTextures/Woodenfloor01
+  artifactKey: Guid(2f3670fd6ff7cbb43ab6145b7f118642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FloorTextures/Woodenfloor01 using Guid(2f3670fd6ff7cbb43ab6145b7f118642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655f0bb5520c60bf79e5ec4f8bb5c25d') in 0.003797 seconds
+  Import took 0.016116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104220 seconds.
+  path: Assets/Resources/FloorTextures/Woodenfloor01/Wooden floor 01.mat
+  artifactKey: Guid(b5198f8af2f2fb74d81edc8ca9d255ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FloorTextures/Woodenfloor01/Wooden floor 01.mat using Guid(b5198f8af2f2fb74d81edc8ca9d255ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+ -> (artifact id: 'c6bdea75ccbc4e391749f422623b5aff') in 1.411504 seconds
+  Import took 1.421879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Resources/FloorTextures/Woodenfloor01/Wooden floor normal.tga
+  artifactKey: Guid(4ee2b7fdbd28a6c488200be86572be5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FloorTextures/Woodenfloor01/Wooden floor normal.tga using Guid(4ee2b7fdbd28a6c488200be86572be5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9588bd1738ee918280fa2eb7ef975d') in 0.083276 seconds
+  Import took 0.091850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Resources/FloorTextures/Woodenfloor01/Wooden floor diffuse.tga
+  artifactKey: Guid(cd80b1a4d37ec0d44a2a9a70219c67a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FloorTextures/Woodenfloor01/Wooden floor diffuse.tga using Guid(cd80b1a4d37ec0d44a2a9a70219c67a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc01e5ece5227cb190663bec605075e') in 0.036228 seconds
+  Import took 0.048165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.432576 seconds.
+  path: Assets/Resources/FloorTextures/Woodenfloor01/Materials
+  artifactKey: Guid(be2aab423ed14644aaa0a69186d9d349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FloorTextures/Woodenfloor01/Materials using Guid(be2aab423ed14644aaa0a69186d9d349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cee480470adf96629978142a9e7fe86') in 0.007373 seconds
+  Import took 0.046291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001058 seconds.
+  path: Assets/Resources/FloorTextures/Woodenfloor01/Materials
+  artifactKey: Guid(be2aab423ed14644aaa0a69186d9d349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FloorTextures/Woodenfloor01/Materials using Guid(be2aab423ed14644aaa0a69186d9d349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cee480470adf96629978142a9e7fe86') in 0.005795 seconds
+  Import took 0.016462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.415317 seconds.
+  path: Assets/Resources/FloorTextures/Woodenfloor01/Materials/Wooden floor diffuse.mat
+  artifactKey: Guid(7bc99ff5fbf8185408a509e1994fff42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FloorTextures/Woodenfloor01/Materials/Wooden floor diffuse.mat using Guid(7bc99ff5fbf8185408a509e1994fff42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5958b2c58bf4f30b45060fdadd103d45') in 0.045107 seconds
+  Import took 0.053978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Resources/FloorTextures/Woodenfloor01/Materials/Wooden_floor_diffuse.mat
+  artifactKey: Guid(4fe42388dbd605042976aeb8185868fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/FloorTextures/Woodenfloor01/Materials/Wooden_floor_diffuse.mat using Guid(4fe42388dbd605042976aeb8185868fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745ac097ec4b8869a882c1a2ea7e4de2') in 0.065006 seconds
+  Import took 0.076360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.696609 seconds.
+  path: Assets/Wooden floor
+  artifactKey: Guid(2f6fae4b775d21940ab072c013ec9789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor using Guid(2f6fae4b775d21940ab072c013ec9789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e28f512ad5702257ac3f3fc2c5aa0e9') in 0.004055 seconds
+  Import took 0.017635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008116 seconds.
+  path: Assets/Wooden floor
+  artifactKey: Guid(2f6fae4b775d21940ab072c013ec9789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor using Guid(2f6fae4b775d21940ab072c013ec9789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e28f512ad5702257ac3f3fc2c5aa0e9') in 0.004876 seconds
+  Import took 0.023296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.795943 seconds.
+  path: Assets/Wooden floor/w1
+  artifactKey: Guid(862acc4e89451a24587a0e79660874f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor/w1 using Guid(862acc4e89451a24587a0e79660874f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e971ccd03c0120f2423c93665df01504') in 0.071369 seconds
+  Import took 0.083124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024759 seconds.
+  path: Assets/Wooden floor/w1/4-EUROPLAC-Chêne Naturel-Parquet et Lambris-Diffuse.jpg
+  artifactKey: Guid(24ba9d3e1554cb84faa8ab7fdbbf83f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor/w1/4-EUROPLAC-Chêne Naturel-Parquet et Lambris-Diffuse.jpg using Guid(24ba9d3e1554cb84faa8ab7fdbbf83f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b34558dfb8e7daad6da6e8d4bb4a17f') in 0.159168 seconds
+  Import took 0.172221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.587103 seconds.
+  path: Assets/Wooden floor/Wooden floor 02
+  artifactKey: Guid(deb34afaa5afaab4da4bac08e71c9dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor/Wooden floor 02 using Guid(deb34afaa5afaab4da4bac08e71c9dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1d7975903af12f8b8816073f71b2c1') in 0.006089 seconds
+  Import took 0.018543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048913 seconds.
+  path: Assets/Wooden floor/Wooden floor 02/Wooden floor 02.mat
+  artifactKey: Guid(909ba812e840a4c4399dd2bf9ed67a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor/Wooden floor 02/Wooden floor 02.mat using Guid(909ba812e840a4c4399dd2bf9ed67a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25834b18d2d92e092053d557d5be31fb') in 9.406213 seconds
+  Import took 9.417875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124495 seconds.
+  path: Assets/Wooden floor/Wooden floor 04/Wooden floor 04.mat
+  artifactKey: Guid(585b99b5dc612124e94345db68b4544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor/Wooden floor 04/Wooden floor 04.mat using Guid(585b99b5dc612124e94345db68b4544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa7a7fc2476f3a61a8e0226c0bd39f9') in 0.125022 seconds
+  Import took 0.146855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Wooden floor/Wooden floor 04/Wooden floor normal.tga
+  artifactKey: Guid(c07f07b1fda14b84b9f27b58f0a957e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor/Wooden floor 04/Wooden floor normal.tga using Guid(c07f07b1fda14b84b9f27b58f0a957e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c336edd2b1b1bf602da162b94280088') in 0.027660 seconds
+  Import took 0.038069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Wooden floor/Wooden floor 04
+  artifactKey: Guid(a0e323b884c7f3242a3172f74c3b0adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor/Wooden floor 04 using Guid(a0e323b884c7f3242a3172f74c3b0adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0401712455023ecf21d72419a112ceb9') in 0.004774 seconds
+  Import took 0.027646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Wooden floor/Wooden floor 04/Wooden floor diffuse.tga
+  artifactKey: Guid(539e440f4713d8942abdef5d2853d5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor/Wooden floor 04/Wooden floor diffuse.tga using Guid(539e440f4713d8942abdef5d2853d5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c74df44b9c4394d74313afcbdd55156') in 0.026541 seconds
+  Import took 0.036055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.033703 seconds.
+  path: Assets/Wooden floor/Wooden floor 05
+  artifactKey: Guid(35e15d6e65160f245820140a7bb13d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor/Wooden floor 05 using Guid(35e15d6e65160f245820140a7bb13d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834a3c10b8a9256dd7686af249666255') in 0.006772 seconds
+  Import took 0.017754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050749 seconds.
+  path: Assets/Wooden floor/Wooden floor 05/Wooden floor 05.mat
+  artifactKey: Guid(18f616d90077f55439a996dc6e804862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor/Wooden floor 05/Wooden floor 05.mat using Guid(18f616d90077f55439a996dc6e804862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8648423b84b0fce094efaf46dd255962') in 0.156933 seconds
+  Import took 0.169820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Wooden floor/Wooden floor 05/Wooden floor diffuse.tga
+  artifactKey: Guid(f5cc0b5174cb51f439cf34137586e583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor/Wooden floor 05/Wooden floor diffuse.tga using Guid(f5cc0b5174cb51f439cf34137586e583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e87a9bc405875c63fc0a19ca915740') in 0.011763 seconds
+  Import took 0.020044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000761 seconds.
+  path: Assets/Wooden floor/Wooden floor 05/Wooden floor normal.tga
+  artifactKey: Guid(46ac2557224ef2747bddc416b5343d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wooden floor/Wooden floor 05/Wooden floor normal.tga using Guid(46ac2557224ef2747bddc416b5343d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3666c44e7ab0a3777585a94354a9460') in 0.027212 seconds
+  Import took 0.038538 seconds .
+

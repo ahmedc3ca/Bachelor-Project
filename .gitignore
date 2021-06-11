@@ -2,6 +2,20 @@
 # Unity folders and files
 ###
 [Aa]ssets/AssetStoreTools*
+[Aa]ssets/_TerrainAutoUpgrade
+[Aa]ssets/HDRPDefaultResources/
+[Aa]ssets/Materials/
+[Aa]ssets/Mirror/
+[Aa]ssets/Modern_UI_Pack/
+[Aa]ssets/Oculus/
+[Aa]ssets/ParrelSync
+[Aa]ssets/Resources
+[Aa]ssets/Supercyan Character Pack Free Sample
+[Aa]ssets/ScriptTemplates
+[Aa]ssets/TerrainTexturesPackFree
+[Aa]ssets/TextMesh Pro
+[Aa]ssets/Wooden floor
+[Aa]ssets/XR
 [Bb]uild/
 [Ll]ibrary/
 [Ll]ocal[Cc]ache/
